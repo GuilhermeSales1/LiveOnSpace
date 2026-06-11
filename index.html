@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveOnSpace - Global Solution 2026</title>
+    <script src="https://kit.fontawesome.com/f02e660856.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <img src="./assets/img/logo.png" alt="Logo do LiveOnSpace">
+        <div class="logo">LiveOnSpace</div>
+        <div class="cores">
+            <button>☀️</button>
+            <button>🌙</button>
+            <button>🍃</button>
+        </div>
+    </header>
+    <section class="slide" id="slide">
+        <h2>Imagens Ilustrativas</h2>
+    <div class="slider">
+    <button onclick="anterior()">◀</button>
+
+    <img id="imagem" src="./slides/satelite.png">
+
+    <button onclick="proxima()">▶</button>
+    </div>
+    </section>
+    <main>
+        <section class="menu">
+        <button class="menu"><i class="fa-solid fa-bars"></i></button>
+        <nav class="nav hidden">
+            <a href="#slide">slides</a>
+            <a href="#problema">Problema</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#objetivos">Objetivos</a>
+            <a href="#publico">Público</a>
+            <a href="#beneficios">Benefícios</a>
+            <a href="#aplicacao">Aplicação</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+        </section>
+        <section id="problema" class="section">
+            <div class="section-content">
+                <h2>O Problema</h2>
+                <p>Grandes queimadas e mudanças climáticas destroem ecossistemas terrestres rapidamente todos os anos.</p>
+                <p>A falta de dados integrados atrasa o combate a desastres ambientais críticos.</p>
+                
+            </div>
+            <div class="section-image">
+                <img src="./assets/img/floresta-problema.png" alt="Satélite orbitando a Terra monitorando focos de incêndio em florestas.">
+            </div>
+        </section>
+
+        <section id="tecnologia" class="section reverse">
+            <div class="section-content">
+                <h2>Tecnologia</h2>
+                <p>Utilizamos microcontroladores Arduino conectados a sensores Climáticos e APIs de dados orbitais abertas.</p>
+                <p>A arquitetura integra hardware ágil a sistemas web usando HTML5, CSS3 e JavaScript.</p>
+                <a href="https://wokwi.com/projects/466193340014837761" target="_blank" class="btn-preview">
+                    Ver Simulação no Wokwi →
+                </a>
+            </div>
+            <div class="section-image">
+                <a href="https://wokwi.com/projects/466193340014837761" target="_blank" class="image-link-wrapper">
+                    <img src="./assets/img/Arduino-Tecnologia.png" alt="Circuito eletrônico inteligente com Arduino.">
+                    <span class="preview-overlay">Abrir Simulador Interativo</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="objetivos" class="section">
+            <div class="section-content">
+                <h2>Objetivos</h2>
+                <p>Monitorar variações de clima ambiental em tempo real para prever riscos ecológicos terrestres severos.</p>
+                <p>Conectar dados de sensores locais a relatórios de satélites espaciais para ações rápidas.</p>
+            </div>
+            <div class="section-image">
+                <img src="./assets/img/Objetivos.png" alt="Painel digital exibindo gráficos de monitoramento ecológico e metas do projeto.">
+            </div>
+        </section>
+
+        <section id="publico" class="section reverse">
+            <div class="section-content">
+                <h2>Público-alvo</h2>
+                <p>Agências governamentais de proteção ambiental, cientistas climáticos e produtores agrícolas focados em sustentabilidade.</p>
+                <p>Comunidades vulneráveis expostas a riscos severos causados por desastres naturais constantes.</p>
+            </div>
+            <div class="section-image">
+                <img src="./assets/img/Publico-alvo.png" alt="demonstração sobre Público-Alvo do projeto">
+            </div>
+        </section>
+
+        <section id="beneficios" class="section">
+            <div class="section-content">
+                <h2>Benefícios</h2>
+                <p>Identificação precoce de focos de incêndio florestal, reduzindo drasticamente os danos ambientais locais.</p>
+                <p>Otimização de recursos financeiros públicos através de monitoramento estratégico contínuo e automação preventiva.</p>
+            </div>
+            <div class="section-image">
+                <img src="./assets/img/Beneficios.png" alt="Floresta verde preservada com o uso do sistema.">
+            </div>
+        </section>
+
+        <section id="aplicacao" class="section reverse">
+            <div class="section-content">
+                <h2>Aplicação Prática</h2>
+                <p>Fiscais recebem alertas automáticos no celular assim que anomalias do clima são detectadas.</p>
+                <p>A plataforma web gera relatórios visuais dinâmicos para tomadas de decisão rápidas e eficientes.</p>
+            </div>
+            <div class="section-image">
+                <img src="./assets/img/Dia a Dia.png" alt="Interface de aplicativo mobile exibindo alertas de monitoramento em tempo real.">
+            </div>
+        </section>
+
+        <section id="quiz" class="section">
+            <div class="section-content">
+                <h2>Quiz Ambiental</h2>
+                <p>Teste seus conhecimentos com 10 perguntas baseadas no LiveOnSpace.</p>
+                <form id="quiz-form">
+                    <div id="perguntas-container"></div>
+                    <button type="button" id="btn-finalizar" class="btn-preview">Finalizar Quiz</button>
+                </form>
+                <div id="resultado-quiz" class="hidden">
+                    <h3>Resultado: <span id="score">0</span>/10</h3>
+                    <p id="mensagem-feedback"></p>
+                    <button type="button" id="btn-reiniciar" class="btn-preview">Tentar Novamente</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Desenvolvido por: Kaick (RM 574060) | Gustavo Basso (RM 572623) | Guilherme Salles (RM 572933)</p>
+        <p>Pedro Feltrin (RM 569038) | Guilherme Kozikoski (RM 571611)</p>
+        <p>Global Solution 2026 — Engenharia de Software FIAP</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
