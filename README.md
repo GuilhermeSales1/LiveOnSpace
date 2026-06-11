@@ -29,7 +29,7 @@ O LiveOnSpace é uma plataforma desenvolvida para auxiliar no monitoramento ambi
 
 ### Sistema de Temas
 
-O usuário pode alterar a aparência do site entre:
+O usuário pode alterar as cores do site entre:
 
 * Tema Claro
 * Tema Escuro
