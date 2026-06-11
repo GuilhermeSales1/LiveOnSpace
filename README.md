@@ -53,6 +53,7 @@ Contém 10 perguntas sobre o projeto. Ao finalizar, o sistema calcula a pontuaç
 
 Responsável pela estrutura da página e organização das seções:
 
+* Slide
 * Problema
 * Tecnologia
 * Objetivos
