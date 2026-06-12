@@ -36,6 +36,14 @@ Seu principal objetivo é identificar possíveis riscos ecológicos, como queima
 </table>
 
 ---
+
+## 🚨 Problema
+
+<strong> Queimadas, mudanças climáticas e desastres ambientais </strong> representam desafios crescentes para governos, produtores rurais e comunidades.
+Muitas vezes, a identificação desses eventos ocorre de forma tardia, dificultando ações preventivas e aumentando os impactos ambientais e econômicos.
+O LiveOnSpace busca reduzir esse problema por meio da integração entre sensores terrestres e tecnologias espaciais para monitoramento contínuo e inteligente.
+
+---
 ## 🎯 Objetivos ##
 
 - 🌡️ Monitorar condições climáticas em tempo real.
