@@ -1,107 +1,176 @@
-# Documentação do Projeto LiveOnSpace
 
-## 1. Descrição do Projeto
+#     🌎🚀 LiveOnSpace
 
-O LiveOnSpace é uma plataforma desenvolvida para auxiliar no monitoramento ambiental através da integração de sensores climáticos, microcontroladores Arduino e dados obtidos por satélites. O objetivo é identificar possíveis riscos ecológicos, como queimadas e alterações climáticas, permitindo respostas mais eficientes.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Projeto-Global%20Solution-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Tecnologia-Arduino-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/ODS-Monitoramento%20Ambiental-green?style=for-the-badge">
+</p>
 
-## 2. Objetivo
+<p align="center">
+  <strong>Monitoramento Ambiental Inteligente com Apoio de Tecnologias Espaciais</strong>
+</p>
 
-* Monitorar condições climáticas em tempo real.
-* Detectar possíveis anomalias ambientais.
-* Integrar dados de sensores locais com informações orbitais.
-* Fornecer alertas e relatórios para auxiliar na tomada de decisões.
+---
 
-## 3. Tecnologias Utilizadas
+## 📖 Sobre o Projeto
 
-### Front-end
+O **LiveOnSpace** é uma plataforma desenvolvida para auxiliar no monitoramento ambiental através da integração de sensores climáticos, microcontroladores Arduino e dados obtidos por satélites.
 
-* HTML5
-* CSS3
-* JavaScript
+Seu principal objetivo é identificar possíveis riscos ecológicos, como queimadas, alterações climáticas e eventos ambientais extremos, permitindo respostas mais rápidas, precisas e eficientes.
 
-### Hardware e Simulação
+---
 
-* Arduino
-* Sensores climáticos
-* Plataforma Wokwi
+## 🎯 Objetivos
 
-## 4. Funcionalidades
+- 🌡️ Monitorar condições climáticas em tempo real.
+- 🔥 Detectar possíveis anomalias ambientais.
+- 🛰️ Integrar dados de sensores locais com informações orbitais.
+- 📊 Fornecer alertas e relatórios para auxiliar na tomada de decisões.
+- 🌱 Contribuir para a preservação ambiental através da tecnologia.
 
-### Sistema de Temas
+---
 
-O usuário pode alterar as cores do site entre:
+## 🛠️ Tecnologias Utilizadas
 
-* Tema Claro
-* Tema Escuro
-* Tema Verde
+### 💻 Front-end
 
-### Menu de Navegação
+| Tecnologia | Descrição |
+|------------|------------|
+| HTML5 | Estrutura da aplicação |
+| CSS3 | Estilização e responsividade |
+| JavaScript | Interatividade e funcionalidades |
 
-Menu lateral que permite acessar rapidamente as seções da página.
+### 🔧 Hardware e Simulação
 
-### Carrossel de Imagens
+| Tecnologia | Função |
+|------------|---------|
+| Arduino | Coleta e processamento de dados |
+| Sensores Climáticos | Monitoramento ambiental |
+| Wokwi | Simulação do circuito eletrônico |
 
-Exibe imagens ilustrativas relacionadas ao projeto com navegação através de botões de avançar e voltar.
+---
 
-### Quiz Interativo
+## ✨ Funcionalidades
 
-Contém 10 perguntas sobre o projeto. Ao finalizar, o sistema calcula a pontuação e exibe um feedback ao usuário.
+### 🎨 Sistema de Temas
 
-## 5. Estrutura do Projeto
+Personalização da interface com três opções de visualização:
 
-### HTML
+- ☀️ Tema Claro
+- 🌙 Tema Escuro
+- 🌿 Tema Verde
 
-Responsável pela estrutura da página e organização das seções:
+### 📂 Menu de Navegação
 
-* Slide
-* Problema
-* Tecnologia
-* Objetivos
-* Público-alvo
-* Benefícios
-* Aplicação Prática
-* Quiz
+Menu lateral intuitivo para acesso rápido às seções da plataforma.
 
-### CSS
+### 🖼️ Carrossel de Imagens
 
-Responsável pela estilização da interface:
+Exibição dinâmica de imagens relacionadas ao projeto com controles de navegação.
 
-* Layout responsivo
-* Sistema de temas
-* Animações e efeitos visuais
-* Organização dos componentes
+### 🧠 Quiz Interativo
 
-### JavaScript
+- 10 perguntas sobre o projeto;
+- Correção automática;
+- Exibição da pontuação final;
+- Feedback personalizado ao usuário.
+
+---
+
+## 🏗️ Estrutura do Projeto
+
+### 📄 HTML
+
+Responsável pela estrutura e organização da aplicação:
+
+```text
+📁 Projeto
+ ├── Slide
+ ├── Problema
+ ├── Tecnologia
+ ├── Objetivos
+ ├── Público-Alvo
+ ├── Benefícios
+ ├── Aplicação Prática
+ └── Quiz
+```
+
+### 🎨 CSS
+
+Responsável pela aparência visual:
+
+- Layout responsivo;
+- Sistema de temas;
+- Animações e efeitos visuais;
+- Organização dos componentes.
+
+### ⚙️ JavaScript
 
 Responsável pela interatividade:
 
-* Controle do menu lateral
-* Troca de temas
-* Funcionamento do carrossel de imagens
-* Geração e correção do quiz
+- Controle do menu lateral;
+- Alternância de temas;
+- Funcionamento do carrossel;
+- Geração e correção do quiz.
 
-## 6. Público-Alvo
+---
 
-* Órgãos governamentais de proteção ambiental
-* Cientistas climáticos
-* Produtores agrícolas
-* Comunidades afetadas por desastres ambientais
+## 👥 Público-Alvo
 
-## 7. Benefícios
+| Segmento | Aplicação |
+|-----------|-----------|
+| 🏛️ Órgãos Governamentais | Monitoramento e prevenção ambiental |
+| 🔬 Cientistas Climáticos | Estudos e análises ambientais |
+| 🌾 Produtores Agrícolas | Acompanhamento das condições climáticas |
+| 🏘️ Comunidades Locais | Prevenção de riscos ambientais |
 
-* Detecção antecipada de queimadas.
-* Melhor utilização de recursos públicos.
-* Monitoramento contínuo do meio ambiente.
-* Apoio à tomada de decisões através de dados em tempo real.
+---
 
-## 8. Integrantes
+## 🌟 Benefícios
 
-* Kaick – RM 574060
-* Gustavo Basso – RM 572623
-* Guilherme Salles – RM 572933
-* Pedro Feltrin – RM 569038
-* Guilherme Kozikoski – RM 571611
+- 🔥 Detecção antecipada de queimadas;
+- 📡 Integração entre sensores e dados espaciais;
+- 📈 Monitoramento contínuo do meio ambiente;
+- 💰 Melhor utilização de recursos públicos;
+- ⚡ Respostas mais rápidas a eventos ambientais;
+- 📊 Apoio à tomada de decisões baseada em dados.
 
-## 9. Conclusão
+---
 
-O LiveOnSpace demonstra como a combinação de sensores, sistemas web e dados orbitais pode contribuir para a preservação ambiental, oferecendo uma solução tecnológica para monitoramento e prevenção de riscos ecológicos.
+## 🚀 Aplicação Prática
+
+O sistema pode ser utilizado para:
+
+- Monitoramento de áreas de preservação ambiental;
+- Detecção precoce de incêndios florestais;
+- Acompanhamento climático de regiões agrícolas;
+- Apoio a órgãos de fiscalização ambiental;
+- Gestão de riscos ambientais em tempo real.
+
+---
+
+## 👨‍💻 Equipe
+
+| Integrante | RM |
+|------------|---------|
+| Kaick | RM 574060 |
+| Gustavo Basso | RM 572623 |
+| Guilherme Salles | RM 572933 |
+| Pedro Feltrin | RM 569038 |
+| Guilherme Kozikoski | RM 571611 |
+
+---
+
+## 📌 Conclusão
+
+O **LiveOnSpace** demonstra como a combinação de sensores inteligentes, sistemas web e dados orbitais pode contribuir para a preservação ambiental.
+
+Ao unir monitoramento em tempo real, análise de dados e tecnologias espaciais, a plataforma oferece uma solução inovadora para prevenção de riscos ecológicos e apoio à sustentabilidade.
+
+---
+
+<p align="center">
+  🌎 Desenvolvido para a Global Solution FIAP • 2026 🚀
+</p>
