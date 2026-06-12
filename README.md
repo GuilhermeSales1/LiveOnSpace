@@ -1,5 +1,6 @@
-
-#     🌎🚀 LiveOnSpace
+<p align="center" >
+<strong>🌎🚀 LiveOnSpace </strong>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge">
@@ -14,7 +15,7 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## 📖 Sobre o Projeto ##
 
 O **LiveOnSpace** é uma plataforma desenvolvida para auxiliar no monitoramento ambiental através da integração de sensores climáticos, microcontroladores Arduino e dados obtidos por satélites.
 
@@ -22,7 +23,7 @@ Seu principal objetivo é identificar possíveis riscos ecológicos, como queima
 
 ---
 
-## 🎯 Objetivos
+## 🎯 Objetivos ##
 
 - 🌡️ Monitorar condições climáticas em tempo real.
 - 🔥 Detectar possíveis anomalias ambientais.
@@ -32,9 +33,9 @@ Seu principal objetivo é identificar possíveis riscos ecológicos, como queima
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas ##
 
-### 💻 Front-end
+## 💻 Front-end ##
 
 | Tecnologia | Descrição |
 |------------|------------|
@@ -42,7 +43,7 @@ Seu principal objetivo é identificar possíveis riscos ecológicos, como queima
 | CSS3 | Estilização e responsividade |
 | JavaScript | Interatividade e funcionalidades |
 
-### 🔧 Hardware e Simulação
+## 🔧 Hardware e Simulação ##
 
 | Tecnologia | Função |
 |------------|---------|
