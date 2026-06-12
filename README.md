@@ -15,14 +15,27 @@
 
 ---
 
-## 📖 Sobre o Projeto ##
+## 📖 Sobre o Projeto
+
+<table>
+<tr>
+<td>
 
 O **LiveOnSpace** é uma plataforma desenvolvida para auxiliar no monitoramento ambiental através da integração de sensores climáticos, microcontroladores Arduino e dados obtidos por satélites.
 
 Seu principal objetivo é identificar possíveis riscos ecológicos, como queimadas, alterações climáticas e eventos ambientais extremos, permitindo respostas mais rápidas, precisas e eficientes.
 
----
+</td>
 
+<td align="center">
+
+<img src="./assets/img/logo.png" alt="LiveOnSpace Logo" width="500px">
+
+</td>
+</tr>
+</table>
+
+---
 ## 🎯 Objetivos ##
 
 - 🌡️ Monitorar condições climáticas em tempo real.
